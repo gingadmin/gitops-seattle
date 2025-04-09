@@ -20,7 +20,7 @@ controls:
     minimum_version: "15.3.1"
   macos_settings:
     custom_settings:
-      ../lib/disable-bluetooth-file-sharing.mobileconfig
+      - path: ../lib/disable-bluetooth-file-sharing.mobileconfig
   scripts:
     - path: ../lib/remove-zoom-artifacts.script.sh
 team_settings:
